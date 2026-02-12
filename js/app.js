@@ -36,11 +36,7 @@ function loadSolver(name) {
                 </div>`;
             break;
         case 'spelling-bee':
-            area.innerHTML = `
-                <div style="text-align:center;padding:3rem 1rem;">
-                    <h2>Spelling Bee Solver</h2>
-                    <p style="color:#818384;margin-top:1rem;">Coming soon!</p>
-                </div>`;
+            SpellingBeeSolver.init();
             break;
     }
 }
