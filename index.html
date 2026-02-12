@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT Game Solver</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>NYT Game Solver</h1>
+        <p>Your toolkit for solving New York Times puzzles</p>
+    </header>
+
+    <nav id="game-nav">
+        <a href="#wordle" class="nav-card active">
+            <span class="nav-icon">🟩</span>
+            <span class="nav-label">Wordle</span>
+        </a>
+        <a href="#connections" class="nav-card">
+            <span class="nav-icon">🔗</span>
+            <span class="nav-label">Connections</span>
+        </a>
+        <a href="#spelling-bee" class="nav-card">
+            <span class="nav-icon">🐝</span>
+            <span class="nav-label">Spelling Bee</span>
+        </a>
+    </nav>
+
+    <main id="solver-area">
+        <!-- Wordle solver will load here by default -->
+    </main>
+
+    <script src="js/words.js"></script>
+    <script src="js/wordle.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
